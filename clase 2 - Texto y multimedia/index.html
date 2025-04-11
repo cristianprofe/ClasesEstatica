@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clase 2 | Texto y multimedia</title>
+  </head>
+  <body>
+    <header id="header" class="header clase2">
+      <h1>Clase 2 | Texto y multimedia</h1>
+      <!-- Desde h1 hasta 6 | h6 menor importancia que h1 -->
+    </header>
+    <main>
+      <h2>Textos</h2>
+      <!-- Contenido principal de la pagina -->
+      <p>Hola soy el profe</p>
+      <!-- Contener un parrafo, no muestra con formato -->
+      <!-- style es css - no se usa así  -->
+      <p>
+        aguante el <span style="color: aqua" class="talleres">Talleres</span>
+      </p>
+
+      <h2>Multimedia</h2>
+      <!-- Para imagenes -->
+      <!-- Desde donde voy a obtener mi images 
+       src= url local
+       src= url externa
+       -->
+
+      <!-- Primer ejemplo - local -->
+      <img
+        src="./public/images/imagePrueba.jpg"
+        alt="Una persona con pelo largo arriba de un burro, con estilo caricatura"
+        width="200"
+        height="200"
+      />
+
+      <!-- Segundo ejemplo - externa -->
+      <img
+        src="https://media.es.wired.com/photos/6519015ce1045b93e30d62e9/16:9/w_1600,c_limit/51071209"
+        alt="spiderman"
+        width="200"
+      />
+      <!-- si o si local la url -->
+      <video src=""></video>
+      <audio src=""></audio>
+
+      <!-- Iframe - incrustar contenido -->
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/VU-N8eR_t6s?si=E39J8aOhqBX3fxeG&amp;start=120"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3049.5126912107053!2d-71.35350822494514!3d-40.15313737148324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96110e7640e21c4b%3A0xf394db991c61dda5!2sE.P.E.T.%20n%C2%B0%2012!5e0!3m2!1ses!2sar!4v1744410111787!5m2!1ses!2sar"
+        width="200"
+        height="200"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </main>
+    <aside>
+      <!-- No tan importante -->
+    </aside>
+    <footer>
+      <!-- El pie de pagina  -->
+    </footer>
+  </body>
+</html>
