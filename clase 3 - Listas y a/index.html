@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Titulo</title>
+  </head>
+  <body>
+    <header>
+      <h1>Listas y a(anchor)</h1>
+      <a href="#prueba">Ir a la prueba</a>
+
+      <!-- menu de navegacion -->
+      <nav>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li>Sobre mi</li>
+          <li>Consultas</li>
+          <li>Galeria</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="Listas" class="listas">
+        <h2>Listas</h2>
+        <p>Listas tenemos 3:</p>
+        <p>Listas ordenadas</p>
+        <ol>
+          <li>Primero</li>
+          <li>Segundo</li>
+          <li>tercero</li>
+        </ol>
+        <p>Listra desordenada</p>
+        <ul>
+          <li>Uno</li>
+          <li>Dos</li>
+          <li>tres</li>
+        </ul>
+
+        <div id="prueba">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores
+          quibusdam officiis eius ullam sed, eveniet consequuntur facilis itaque
+          excepturi officia, neque explicabo placeat atque? Sit, praesentium
+          numquam! Voluptate, commodi iusto?
+        </div>
+        <p>Frutas y verduras</p>
+        <ol>
+          <li>
+            Frutas
+            <ol>
+              <li>Frutillas</li>
+              <li>Pera</li>
+            </ol>
+          </li>
+          <li>Verduras</li>
+        </ol>
+
+        <dl>
+          <!--Contenedor-->
+          <dt>HTML</dt>
+          <dd>hyper Text markup lenguaje</dd>
+          <dt>css</dt>
+          <!--Lo que vot a definir-->
+          <dd>Cascade Style Sheet</dd>
+          <!--La definicion-->
+          <dt>Aura</dt>
+          <dd>Erik Nicolas ...</dd>
+        </dl>
+      </section>
+
+      <section class="anchor" id="anchor">
+        <h2>Anchor - a - link</h2>
+        <!--Ruta absoluta-->
+        <a href="https://epet12smandes.blogspot.com/" target="_blank"
+          >Ir al blog</a
+        >
+        <!--Rutas relativas-->
+        <a href="./pages/pagina2.html">ir a pagina 2</a>
+
+        <!--Descarga - agregar el atributo donwload, para cambiar el nombre, cambio el valor de donwload-->
+        <a href="./public/documents/hola.txt" download="nuevonombre.txt"
+          >Descargar texto</a
+        >
+
+        <!-- Abrir el correo -->
+        <a href="mailto:halarcon@epet12smandes.edu.ar"
+          >Contacta conmigo por correo</a
+        >
+        <!-- Abrir el telefo -->
+        <a href="tel: 222222">Llmame ahora</a>
+        <!-- Mensaje por whatsapp -->
+        <a
+          href="https://wa.me/2222222?text=Hola%20me%20gustaria%20tener%20mas%20info"
+        >
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/WhatsApp_icon.png/598px-WhatsApp_icon.png"
+            alt="logo de whatsapp"
+            aria-label="enviar una consulta por whatsapp"
+            width="25"
+          />
+        </a>
+
+        <!--a como ancla  -->
+        <!-- El id a anclar y el ancla a que apunta hacie el id -->
+
+        <div id="prueba">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda
+          mollitia sed, dicta ex a, cupiditate inventore alias magni eius saepe
+          nobis voluptatem omnis consequuntur esse quae reprehenderit veniam,
+          accusantium quis.
+        </div>
+      </section>
+    </main>
+    <footer>2025 - web</footer>
+  </body>
+</html>
