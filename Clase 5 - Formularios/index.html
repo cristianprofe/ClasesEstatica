@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <header>
+      <h1>Formularios</h1>
+      <h1>otra cosa</h1>
+    </header>
+
+    <main>
+      <!-- la etiqueta from como contenedora -->
+      <!--  action sirve para manejar el formulario -->
+      <!-- Metodo de http -->
+      <!-- Bonus: https://formsubmit.co/ se puede buscar mas -->
+      <label for=""></label>
+      <form action="https://formsubmit.co/your@email.com" method="post">
+        <label for="nombre"
+          >Ingresa tu nombre
+          <input
+            type="text"
+            id="nombre"
+            name="nombre"
+            placeholder="Ingresa su nombre"
+          />
+          <!-- Otros tipos -->
+          <input type="number" value="500" min="0" />
+          <input type="email" required />
+          <input type="submit" value="enviar" />
+          <select name="" id="">
+            <option value="sirve">Sirve</option>
+          </select>
+        </label>
+      </form>
+      <!-- Indicarle al navegador o motor de busqueda o IA que ahi hay contenido de algo en especifico -->
+      <section id="cabanas" class="cabanas">
+        <!-- Aca va a haber info de la cabañas -->
+        <!-- es cemantico -->
+        <article id="cabana-1" class="cardCabanas">
+          <div class="cardHeader">
+            <img src="" alt="" />
+            <img src="" alt="" />
+            <img src="" alt="" />
+            <img src="" alt="" />
+            <img src="" alt="" />
+          </div>
+          <div class="main"></div>
+          <div class="CardFooter">
+            <a href="#consultas">Consultar</a>
+            <a href="./pages/cabana-details.html">ver detalles</a>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
