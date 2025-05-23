@@ -37,7 +37,30 @@ p {
 }
 
 .caja {
-    border
   width: 70px;
   height: 70px;
+  border-color: rgb(255, 0, 230);
+  border-width: 1px;
+  border-style: solid;
+  border: solid 1px orange;
+  border-radius: 8px;
+  margin: 10px 50px 5px 18px;
+  padding: 15px;
+}
+
+.prueba {
+  /* dimesiones */
+  width: 50%;
+  max-width: 500px;
+  min-width: 70px;
+  /* height: 100vh;
+  min-height: 400px;
+  max-height: 500px; */
+  /* Desbordamiento */
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.prueba p {
+  font-size: 22px;
 }
